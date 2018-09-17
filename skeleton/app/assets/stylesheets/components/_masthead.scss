@@ -25,6 +25,10 @@
 	color: $dark-gray;
 }
 
+.language-nav a:hover {
+  text-decoration: underline;
+}
+
 .language-nav ul {
 	display: flex;
 }
@@ -32,6 +36,8 @@
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
+  font-family: Luminari;
+  font-size: 40px;
 }
 
 .masthead-links {
@@ -45,6 +51,12 @@
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
+  padding-right: 20px;
+  list-style: none;
+}
+
+.masthead-underline:hover {
+  text-decoration: underline;
 }
 
 .masthead-links button {
